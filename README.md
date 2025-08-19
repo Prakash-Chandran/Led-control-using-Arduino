@@ -1,4 +1,7 @@
-# Led-control-using-Arduino
+### NAME : PRAKASH C
+### REG.NO : 212223240122
+
+#  EX-NO : 1    Led control using Arduino
 
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
@@ -59,8 +62,34 @@ Weighing Machines </br>
 
 ## CIRCUIT DIAGRAM
 
-## PROGRAM
+![1](https://github.com/user-attachments/assets/88b4ddbd-9003-433d-b900-69c0bbd41671)
 
+## PROGRAM
+```
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(12,OUTPUT);
+  pinMode(4,INPUT);
+}
+
+void loop() {
+  int button_status=digitalRead(4);
+  if (button_status==HIGH){
+    digitalWrite(12,HIGH);
+    delay(1000);
+    digitalWrite(12,LOW);
+    delay(1000);
+}
+else 
+
+  digitalWrite(12,LOW);
+}
+```
 ## OUTPUT
 
+<img width="1249" height="834" alt="Screenshot 2025-08-19 113207" src="https://github.com/user-attachments/assets/a9d7770a-c64b-40a2-8242-23a1125f1894" />
+
+<img width="1253" height="836" alt="Screenshot 2025-08-19 113059" src="https://github.com/user-attachments/assets/62eb9215-d279-412c-a20f-7ad4e0d12428" />
+
 ## RESULT
+Thus, the LED control using Arduino and push button were executed Successfully.
