@@ -1,7 +1,7 @@
 ### NAME : PRAKASH C
 ### REG.NO : 212223240122
 
-#  EX-NO : 1    Led control using Arduino
+#  EX NO : 1    Led control using Arduino
 
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
